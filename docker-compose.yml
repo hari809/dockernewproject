@@ -1,25 +1,25 @@
 version: '3.8'
 services:
   movies:
-    image: hari809/paytmmovies:latest
+    image: hari809/paymovies:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
   train:
-    image: hari809/paytmtrain:latest
+    image: hari809/paytrain:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
   dth:
-    image: hari809/paytmdth:latest
+    image: hari809/paydth:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
   recharge:
-    image: hari809/paytmrecharge:latest
+    image: hari809/payrecharge:latest
     ports:
       - "84:80"
     deploy:
