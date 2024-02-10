@@ -1,6 +1,5 @@
-version: "3.8"
+version: '3.8'
 services:
-  db:
   movies:
   image: hari809/paymovies:latest
   ports:
